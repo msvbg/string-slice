@@ -1,0 +1,38 @@
+{
+  "name": "string-slice",
+  "version": "0.1.0",
+  "description": "Unicode-friendly version of String.prototype.slice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msvbg/string-slice"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "string",
+    "slice",
+    "unicode",
+    "astral",
+    "surrogates",
+    "codepoints",
+    "str"
+  ],
+  "author": "Martin Svanberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msvbg/string-slice/issues"
+  },
+  "homepage": "https://github.com/msvbg/string-slice",
+  "dependencies": {
+    "es6-iterator": "^0.1.2",
+    "string-length": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
